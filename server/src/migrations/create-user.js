@@ -10,6 +10,9 @@ module.exports = {
       name: {
         type: Sequelize.STRING
       },
+      email: {
+        type: Sequelize.STRING
+      },
       password: {
         type: Sequelize.STRING
       },
@@ -17,6 +20,15 @@ module.exports = {
         type: Sequelize.STRING
       },
       zalo: {
+        type: Sequelize.STRING
+      },
+      facebook: {
+        type: Sequelize.STRING
+      },
+      avatar: {
+        type: Sequelize.STRING
+      },
+      postLikeId: {
         type: Sequelize.STRING
       },
       createdAt: {
